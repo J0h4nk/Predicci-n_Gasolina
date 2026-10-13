@@ -26,8 +26,7 @@ if st.button("Predecir Precio"):
         precio_petroleo, tipo_cambio, demanda_diaria, prod_opep, 
         inflacion, pib, eventos_geopoliticos, impuestos
     ]], columns=[
-        'precio_petroleo', 'tipo_cambio', 'demanda_diaria', 'produccion_opep', 
-        'inflacion', 'pib', 'eventos_geopoliticos', 'porcentaje_impuestos'
+       'Precio_Petroleo_USD_Barril', 'Tipo_Cambio_USD_COP', 'Demanda_miles_barriles_dia', 'Produccion_OPEP_millones_dia', 'Inflacion_Porcentaje', 'PIB_Porcentaje', 'Eventos_Geopoliticos', 'Impuestos_Combustibles_Porcentaje'
     ])
     
     # Escalar los datos y predecir
